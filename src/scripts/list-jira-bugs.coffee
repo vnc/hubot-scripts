@@ -16,7 +16,7 @@ issueTypes = process.env.HUBOT_JIRA_ISSUE_TYPES
 issueTypes or= "bug|task|sub task|support ticket|new feature|epic|issue" #some defaults
                                                      
 issueStatuses = process.env.HUBOT_JIRA_ISSUE_STATUSES
-issueStatuses or= "assigned|blocked|open|closed|resolved"
+issueStatuses or= "assigned|blocked|open|closed|resolved|unresolved"
 
 # e.g. "blocker|high|medium|minor|trivial"
 issuePriorities = process.env.HUBOT_JIRA_ISSUE_PRIORITIES
